@@ -1,0 +1,77 @@
+/* academics.css */
+
+/* Container styling for the list */
+.academics-container {
+    max-width: 360px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for each list item */
+  .academics-container .MuiListItem-root {
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Hover effect for list items */
+  .academics-container .MuiListItem-root:hover {
+    background-color: #eef4ff;
+  }
+  
+  /* Styling for the avatar/icon next to each list item */
+  .academics-container .MuiListItemAvatar-root {
+    margin-right: 16px;
+  }
+  
+  .academics-container .MuiSvgIcon-root {
+    color: #3f51b5;
+    font-size: 28px;
+  }
+  
+  /* Text styling */
+  .academics-container .MuiTypography-root {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Secondary text styling (date and description) */
+  .academics-container .MuiTypography-body2 {
+    color: #666;
+    display: block;
+    margin-top: 4px;
+  }
+  
+  /* Divider for list items */
+  .academics-container .MuiListItemText-root {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .academics-container .MuiListItemText-root:last-child {
+    border-bottom: none;
+  }
+  
+  /* Media Query: Mobile responsiveness */
+  @media (max-width: 480px) {
+    .academics-container {
+      max-width: 100%;
+      padding: 16px;
+    }
+  
+    .academics-container .MuiTypography-root {
+      font-size: 0.9rem;
+    }
+  
+    .academics-container .MuiSvgIcon-root {
+      font-size: 24px;
+    }
+  }
+  

@@ -1,0 +1,93 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .user-profile-username {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .user-profile-description {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0 20px;
+  }
+  
+  .user-profile-social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .user-profile-social-links a {
+    color: #555;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .user-profile-social-links a:hover {
+    color: #3f51b5;
+  }
+  
+  /* Button Container */
+  .user-profile-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .user-profile-buttons .button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* LinkedIn Button */
+  .user-profile-buttons .linkedin-btn {
+    background-color: #0a66c2;
+  }
+  
+  .user-profile-buttons .linkedin-btn:hover {
+    background-color: #004182;
+  }
+  
+  /* GitHub Button */
+  .user-profile-buttons .github-btn {
+    background-color: #333;
+  }
+  
+  .user-profile-buttons .github-btn:hover {
+    background-color: #555;
+  }
+  
