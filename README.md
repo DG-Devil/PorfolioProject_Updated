@@ -131,7 +131,7 @@ npm run lint
 Clone the repository:
 
 ```bash
-git clone https://github.com/karthikeya-bhamidipati/PorfolioProject.git
+git clone https://github.com/DG-Devil/PorfolioProject_Updated.git
 ```
 
 Navigate to the project directory:
